@@ -1,0 +1,3 @@
+[submodule "CITERA_BlocklyDuino"]
+	path = CITERA_BlocklyDuino
+	url = https://github.com/fast-friction/BlocklyDuino-v2.git
