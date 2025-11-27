@@ -50,7 +50,7 @@ wchispはGPLv2ライセンスの条件に基づいて再配布されています
 xPack GNU RISC-V Embedded GCCはMITライセンスの条件に基づいて再配布されています。<BR>
 詳しくは`LICENSE/MIT.txt`をご参照ください。
 また、GPLv3 with Runtime Exceptionの条件に基づいて再配布されています。<BR>
-詳しくは`gcc-exception-3.1.txt`をご参照ください。
+詳しくは`LICENSE/gcc-exception-3.1.txt`をご参照ください。
 
 ### BusyBox-w32
 このプロジェクトにはBusyBox-w32を使用しています。<BR>
@@ -71,4 +71,3 @@ BusyBox-w32はGPLv2ライセンスの条件に基づいて再配布されてい�
 
 GNU MakeはGPLv2ライセンスの条件に基づいて再配布されています。<BR>
 詳しくは`LICENSE/GPL-3.0.txt`をご参照ください。
-
