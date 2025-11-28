@@ -55,8 +55,27 @@ Windows エクスプローラーの標準機能を利用している場合は、
 
 
 ## プログラミングツールの説明
-準備中...
+プログラミングツールの起動の仕方
+![BlocklyDuino-v2をダブルクリック](RM_Picture/bd1.png)
+まず、BlocklyDuino-v2のフォルダをダブルクリックで開いてください。
+![index.htmlをダブルクリック](RM_Picture/bd2.png)
+「index.html」もしくは「index」をダブルクリックで開いてください。
+もし、使用するソフトウェアを聞かれた場合、「Microsoft Edge」もしくは「Google Chrome」を選択してください。
+![BlocklyDuino-v2の画像](RM_Picture/bd3.png)
+![使用するボードリストの表示](RM_Picture/bd4.png)
+使用するボードの選択をするために、丸の箇所をクリックしてボードリストを開きます。
+![開いたボードリスト](RM_Picture/bd5.png)
+使用するボードはリストの下にあるので、下にスクロールします。
+![ボードリストの選択](RM_Picture/bd6.png)
+丸の箇所をクリックして「citera_board」を選択します。
+![BlocklyDuino-v2の表示の更新](RM_Picture/bd7.png)
+ボードの選択後、BlocklyDuino-v2の表示の更新をします。
+![ボードリストが正常に選択された場合の表示](RM_Picture/bd8.png)
+正常にボードの選択が出来た場合。表示の更新後、左側のツールボックスはこのような表示になります。「Arduino」等のツールボックスが表示されている場合、ボードの選択が正常に出来ていません。再度、ボードの選択をしてください。選択が完了している場合、以下のように、「citera_board」が黄色にハイライトされます。
+![citera_boardがハイライト](RM_Picture/bd9.png)
 
+プログラミングの例：3分タイマー
+![3分タイマー](RM_Picture/3minute_timer.png)
 ## 書き込みツールの説明
 準備中...
 
