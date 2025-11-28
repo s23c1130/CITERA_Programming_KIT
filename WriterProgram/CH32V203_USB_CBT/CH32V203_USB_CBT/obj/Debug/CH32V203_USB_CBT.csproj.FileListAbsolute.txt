@@ -5,3 +5,10 @@ C:\Users\User\share\NPC\VisualStudio\CH32V203_USB_CBT\CH32V203_USB_CBT\obj\Debug
 C:\Users\User\share\NPC\VisualStudio\CH32V203_USB_CBT\CH32V203_USB_CBT\obj\Debug\CH32V203_USB_CBT.csproj.CoreCompileInputs.cache
 C:\Users\User\share\NPC\VisualStudio\CH32V203_USB_CBT\CH32V203_USB_CBT\obj\Debug\CH32V203_USB_CBT.exe
 C:\Users\User\share\NPC\VisualStudio\CH32V203_USB_CBT\CH32V203_USB_CBT\obj\Debug\CH32V203_USB_CBT.pdb
+C:\Users\User\share\NPC\github_配布用\CITERA_Programming_KIT\WriterProgram\CH32V203_USB_CBT\CH32V203_USB_CBT\bin\Debug\CH32V203_USB_CBT.exe.config
+C:\Users\User\share\NPC\github_配布用\CITERA_Programming_KIT\WriterProgram\CH32V203_USB_CBT\CH32V203_USB_CBT\bin\Debug\CH32V203_USB_CBT.exe
+C:\Users\User\share\NPC\github_配布用\CITERA_Programming_KIT\WriterProgram\CH32V203_USB_CBT\CH32V203_USB_CBT\bin\Debug\CH32V203_USB_CBT.pdb
+C:\Users\User\share\NPC\github_配布用\CITERA_Programming_KIT\WriterProgram\CH32V203_USB_CBT\CH32V203_USB_CBT\obj\Debug\CH32V203_USB_CBT.csproj.AssemblyReference.cache
+C:\Users\User\share\NPC\github_配布用\CITERA_Programming_KIT\WriterProgram\CH32V203_USB_CBT\CH32V203_USB_CBT\obj\Debug\CH32V203_USB_CBT.csproj.CoreCompileInputs.cache
+C:\Users\User\share\NPC\github_配布用\CITERA_Programming_KIT\WriterProgram\CH32V203_USB_CBT\CH32V203_USB_CBT\obj\Debug\CH32V203_USB_CBT.exe
+C:\Users\User\share\NPC\github_配布用\CITERA_Programming_KIT\WriterProgram\CH32V203_USB_CBT\CH32V203_USB_CBT\obj\Debug\CH32V203_USB_CBT.pdb

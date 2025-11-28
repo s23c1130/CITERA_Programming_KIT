@@ -79,42 +79,50 @@ namespace CH32V203_USB_CBT
             // 出力ファイル
             string outputFile = @"files\User\main.c";
 
-            using (StreamWriter writer = new StreamWriter(outputFile))
+            if (System.IO.File.Exists(middleFile))
             {
-                // 1. ファイル1の内容を上に書く
-                if (File.Exists(file1))
+                Console.WriteLine("結合処理開始...");
+
+                //ファイルが存在する場合の処理
+                using (StreamWriter writer = new StreamWriter(outputFile))
                 {
-                    foreach (string line in File.ReadLines(file1))
+                    // 1. ファイル1の内容を上に書く
+                    if (File.Exists(file1))
                     {
-                        writer.WriteLine(line);
+                        foreach (string line in File.ReadLines(file1))
+                        {
+                            writer.WriteLine(line);
+                        }
+                    }
+
+                    // 2. 真ん中のファイルの内容を書く
+                    if (File.Exists(middleFile))
+                    {
+                        foreach (string line in File.ReadLines(middleFile))
+                        {
+                            writer.WriteLine(line);
+                        }
+                    }
+
+                    // 3. ファイル2の内容を下に書く
+                    if (File.Exists(file2))
+                    {
+                        foreach (string line in File.ReadLines(file2))
+                        {
+                            writer.WriteLine(line);
+                        }
                     }
                 }
 
-                // 2. 真ん中のファイルの内容を書く
-                if (File.Exists(middleFile))
-                {
-                    foreach (string line in File.ReadLines(middleFile))
-                    {
-                        writer.WriteLine(line);
-                    }
-                }
+                Console.WriteLine("結合が完了しました: " + outputFile);
 
-                // 3. ファイル2の内容を下に書く
-                if (File.Exists(file2))
-                {
-                    foreach (string line in File.ReadLines(file2))
-                    {
-                        writer.WriteLine(line);
-                    }
-                }
-            }
-
-            Console.WriteLine("結合が完了しました: " + outputFile);
-
-            if (File.Exists(middleFile))  // ファイルが存在するか確認
-            {
                 File.Delete(middleFile);  // ファイルを削除
                 Console.WriteLine("ファイルを削除しました。");
+                
+            }
+            else
+            {
+                Console.WriteLine("code.inoファイルが存在しませんでした。以前コンパイルしたソースコードをコンパイルします");
             }
 
 
