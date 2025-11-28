@@ -1,7 +1,7 @@
 # CITERA Programming KIT
 このプロジェクトは、千葉工業大学 電子工学研究会 (CITERA)で開発・頒布されたプログラミングキットの説明書・プログラミングツール・書き込みツール等をまとめたものです。
 
-質問などは下のGoogle Formをご利用ください
+質問などは下のGoogle Formをご利用ください<BR>
 https://forms.gle/aoQnFYQyJ1tKQqx78
 
 バグの報告や機能の追加の希望等は上のGoogle Formをご利用いただくか、Issueを立ち上げてください。
@@ -121,3 +121,5 @@ BusyBox-w32はGPLv2ライセンスの条件に基づいて再配布されてい�
 
 GNU MakeはGPLv2ライセンスの条件に基づいて再配布されています。<BR>
 詳しくは`LICENSE/GPL-3.0.txt`をご参照ください。
+
+これらのソフトウェアの開発者に感謝いたします。
