@@ -93,7 +93,24 @@ Windows エクスプローラーの標準機能を利用している場合は、
 ![3分タイマー](RM_Picture/3minute_timer.png)
 
 ## 書き込みツールの説明
-準備中...
+PCからマイコンボードにプログラムを書き込む方法について説明します。
+
+1. マイコンボードとPCをUSBケーブルで接続します。
+2. 電源をONにして、WRITEモードにスイッチをスライドさせます。
+3. RESETボタンを押します。（画像では赤いボタンがリセットボタン）
+
+![ボードとPCの接続図](RM_Picture/PIC6.jpg)
+
+これでマイコンボードは書き込みモードになりました。
+
+次に、プログラムを書き込みます。
+
+![CITERA_Programming_KIT_CWriterフォルダを開く](RM_Picture/PIC7.png)
+`CITERA_Programming_KIT_CWriter`フォルダを開きます
+
+![CH32V203_USB_CBT.exeを起動する](RM_Picture/PIC8.png)
+`CH32V203_USB_CBT.exe`(または`CH32V203_USB_CBT`)を実行してください。
+
 
 ## ライセンス
 各ツール・設計図のライセンスについては、各フォルダに含まれている`README.md`をご参照ください。
